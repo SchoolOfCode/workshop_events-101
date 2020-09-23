@@ -36,15 +36,15 @@ There are [many different kinds of events](https://developer.mozilla.org/en-US/d
 
 👉 Write a function that takes in an event object as a parameter
 
-👉 When that function is called, read the value from the `value` property, which is nested in an object on the `target` property of the event and set the text in the `h1` tag to be that value
+👉 When that function is called, read the value from the `value` property, which is nested in an object on the `target` property of the event. Set the text in the `h1` tag to be that value
 
-👉 add an event lister to the input which listens to the `keyup` event and calls your function
+👉 add an event listener to the input which listens to the `keyup` event and calls your function
 
 ## Task 4 - more different events
 
-👉 Listen to the `mouseenter` event on the `img` element and change the color of the title to `hotpink`
+👉 Listen to the `mouseenter` event on the `img` element and change the color of the `h1` to `hotpink`
 
-👉 Listen to the `mouseleave` event on the `img` element and change the color back to `initial`
+👉 Listen to the `mouseleave` event on the `img` element and change the color of the `h1` back to `initial`
 
 ## Task 5 - go crazy!
 
