@@ -46,6 +46,6 @@ There are [many different kinds of events](https://developer.mozilla.org/en-US/d
 
 👉 Listen to the `mouseleave` event on the `img` element and change the color back to `initial`
 
-## Task 5 - go crazy!
+## Task 5 - go crazy!
 
 👉 research some new events and make some different stuff happen
