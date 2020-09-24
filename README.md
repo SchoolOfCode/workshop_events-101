@@ -32,6 +32,8 @@ There is a button with a class of `.task-2`
 
 There are [many different kinds of events](https://developer.mozilla.org/en-US/docs/Web/Events) other than click.
 
+Event.target is a reference to the element that fired the event. If we clicked on a button the target would be that button, in this case we are listening to a text input.
+
 👉 Select the input with id `#title-changer`
 
 👉 Write a function that takes in an event object as a parameter
@@ -40,12 +42,35 @@ There are [many different kinds of events](https://developer.mozilla.org/en-US/d
 
 👉 add an event listener to the input which listens to the `keyup` event and calls your function
 
-## Task 4 - more different events
+## Task 4 - different events
 
 👉 Listen to the `mouseenter` event on the `img` element and change the color of the `h1` to `hotpink`
 
 👉 Listen to the `mouseleave` event on the `img` element and change the color of the `h1` back to `initial`
 
-## Task 5 - go crazy!
+## Task 5 - inline listener and toggle
 
-👉 research some new events and make some different stuff happen
+This function should be declared inline, meaning it is declared as an argument to the `addEventListener` function. This function will not need a name and will not be able to be invoked elsewhere in our code.
+
+To toggle is to switch between two states. In this task we will be toggling a class on an element. This means when the function is first called we should add the class, when the function is next called, remove the class. See [this page for more context](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList).
+
+👉 Add an event listener to the checkbox input, listen to the `change` event and declare an inline function that toggles a class of `.funky` on the `h1` element.
+
+## Task 6 - keep practicing
+
+👉 Delete and repeat any tasks you struggled with
+👉 Do the todo list challenge!
+
+## Challenge! - todo list!
+
+- Create a new HTML and JS file
+- With HTML, create an input with type text, a `button`, and an empty `ul`
+- use `querySelector` to select all three and store in variables.
+
+  👉 when the button is clicked
+
+  - get the value from the input
+  - create a new `li`, add the value as the innerText
+  - append the `li` as a child of the `ul`
+
+Boom you have a todo list!
