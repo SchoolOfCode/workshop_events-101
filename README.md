@@ -59,18 +59,4 @@ To toggle is to switch between two states. In this task we will be toggling a cl
 ## Task 6 - keep practicing
 
 👉 Delete and repeat any tasks you struggled with
-👉 Do the todo list challenge!
-
-## Challenge! - todo list!
-
-- Create a new HTML and JS file
-- With HTML, create an input with type text, a `button`, and an empty `ul`
-- use `querySelector` to select all three and store in variables.
-
-  👉 when the button is clicked
-
-  - get the value from the input
-  - create a new `li`, add the value as the innerText
-  - append the `li` as a child of the `ul`
-
-Boom you have a todo list!
+👉 Find more events and listen to them.
