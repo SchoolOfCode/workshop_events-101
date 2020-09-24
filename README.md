@@ -56,7 +56,7 @@ To toggle is to switch between two states. In this task we will be toggling a cl
 
 👉 Add an event listener to the checkbox input, listen to the `change` event and declare an inline function that toggles a class of `.funky` on the `h1` element.
 
-## Task 6 - keep practicing
+## Task 6 - keep practicing
 
 👉 Delete and repeat any tasks you struggled with
 👉 Find more events and listen to them.
