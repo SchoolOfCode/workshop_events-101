@@ -63,4 +63,5 @@ To toggle is to switch between two states. In this task we will be toggling a cl
 ## Task 6 - keep practicing
 
 👉 Delete and repeat any tasks you struggled with. Build that muscle memory! 🧠💪  
+  
 👉 Find even more [types of events](https://developer.mozilla.org/en-US/docs/Web/Events) and practice listening to them.
