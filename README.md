@@ -1,6 +1,6 @@
 # Events
 
-## Task 1 - the event object:
+## Task 1 - The event object:
 
 In `main.js`, you will find some code that looks like this:
 
@@ -18,7 +18,7 @@ We have stored a reference to the button with id `#click-me` in the `button` var
 
 👉 Add code so that if the `shiftKey` property of the event is `true`, then change the inner text of the button to be `"NAILED IT!!"`.
 
-## Task 2 - adding an event listener:
+## Task 2 - Adding an event listener:
 
 There is also a button with a class of `.task-2` in the HTML.
 
@@ -30,7 +30,7 @@ There is also a button with a class of `.task-2` in the HTML.
 
 You can check if your code has worked by loading your page in the browser and checking to see that what's in the browser's tab for the pages changes to flowers when you press the flower button.
 
-## Task 3 - different events:
+## Task 3 - Different events:
 
 There are [many different kinds of events](https://developer.mozilla.org/en-US/docs/Web/Events) other than `click`.
 
@@ -46,13 +46,13 @@ Event.target is a reference to the element that fired the event. If we clicked o
 
 You can check if your code has worked by loading your page in the browser again; when you type in the input field, you should see your text show up on the page.
 
-## Task 4 - different events:
+## Task 4 - Different events:
 
 👉 Listen to the `mouseenter` event on the `img` element and change the color of the `h1` to `hotpink` when the mouse cursor is over the image.
 
 👉 Listen to the `mouseleave` event on the `img` element and change the color of the `h1` back to `initial` when the mouse cursor is then removed from the image.
 
-## Task 5 - inline listener and toggle:
+## Task 5 - Inline listener and toggle:
 
 The function for this task should be declared inline, meaning it is declared as an argument to the `addEventListener` function instead of defined separately. Because it's declared inline, this function will not need a name and will not be able to be invoked elsewhere in our code.
 
@@ -60,7 +60,7 @@ To toggle is to switch between two states. In this task we will be toggling a cl
 
 👉 Add an event listener to the checkbox input that listens to the `change` event, and declare an inline function that toggles a class of `.funky` on and off of the `h1` element.
 
-## Task 6 - keep practicing
+## Task 6 - Keep practicing:
 
 👉 Delete and repeat any tasks you struggled with. Build that muscle memory! 🧠💪  
   
