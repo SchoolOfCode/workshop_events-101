@@ -16,7 +16,7 @@ button.addEventListener("click", handleClick);
 
 We have stored a reference to the button with id `#click-me` in the `button` variable and have added an event listener to listen for when the button is pressed. When the button is pressed, the function `handleClick` will be called.
 
-👉 Add code so that if the `shiftKey` property of the event is `true`, then change the inner text of the button to be `"NAILED IT!!"`.
+👉 Add code so that if the `shiftKey` property of the event is `true`, then change the text in the button to be `"NAILED IT!!"`.
 
 ## Task 2 - Adding an event listener:
 
@@ -24,9 +24,9 @@ There is also a button with a class of `.task-2` in the HTML.
 
 👉 Select this button with `querySelector` and store it in a variable called `flowerButton`.
 
-👉 Write a function that changes the title of the document to be these flower emojis `💐🌷🌼`.
+👉 Write a function that changes the [title of the document](https://developer.mozilla.org/en-US/docs/Web/API/Document/title) to be these flower emojis `💐🌷🌼`.
 
-👉 Add an event listener to the `flowerButton` which listens to the `click` event and calls your function from the previous step. 
+👉 Add an event listener to the `flowerButton` which listens to the `click` event and calls your function from the previous step.
 
 You can check if your code has worked by loading your page in the browser and checking to see that what's in the browser's tab for the pages changes to flowers when you press the flower button.
 
@@ -62,6 +62,6 @@ To toggle is to switch between two states. In this task we will be toggling a cl
 
 ## Task 6 - Keep practicing:
 
-👉 Delete and repeat any tasks you struggled with. Build that muscle memory! 🧠💪  
-  
+👉 Delete and repeat any tasks you struggled with. Build that muscle memory! 🧠💪
+
 👉 Find even more [types of events](https://developer.mozilla.org/en-US/docs/Web/Events) and practice listening to them.
