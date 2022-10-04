@@ -16,6 +16,8 @@ button.addEventListener("click", handleClick);
 
 We have selected the button with id `#click-me` and stored the reference to it in the `button` variable and have added an event listener to listen for when the button is pressed. When the button is pressed, the function `handleClick` will be called.
 
+👉 In the function, add code so that when the button is clicked, you console.log "You clicked me!"
+
 👉 Add code so that if the `shiftKey` property of the event is `true` (in other words, if the user holds the shift key down while they click the button), then change the text in the button to be `"NAILED IT!!"`.
 
 ## Task 2 - Adding an event listener:
