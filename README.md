@@ -52,11 +52,11 @@ You can check if your code has worked by loading your page in the browser again;
 
 👉 Listen to the `mouseleave` event on the `img` element and change the color of the `h1` back to `initial` when the mouse cursor is then removed from the image.
 
-## Task 5 - Inline listener and toggle:
+## Task 5 - Toggle:
 
-The function for this task should be declared inline, meaning it is declared as an argument to the `addEventListener` function instead of defined separately. Because it's declared inline, this function will not need a name and will not be able to be invoked elsewhere in our code.
+The function for this task can be declared inline, meaning it is declared as an argument to the `addEventListener` function instead of defined separately. Because it's declared inline, this function will not need a name and will not be able to be invoked elsewhere in our code. You can read [this article](https://www.geeksforgeeks.org/what-is-the-inline-function-in-javascript/) for more information.
 
-To toggle is to switch between two states. In this task we will be toggling a class on an element. This means that when the function is first called, it should add the class to that element, and when the function is next called, it should remove the class. See [this page for more context](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList).
+To toggle is to switch between two states. In this task we will be toggling a class on an element. This means that when the function is first called, it should add the class to that element, and when the function is next called, it should remove the class. See [this page in the docs for more information about adding/removing classes with JS](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList).
 
 👉 Add an event listener to the checkbox input that listens to the `change` event, and declare an inline function that toggles a class of `.funky` on and off of the `h1` element.
 
