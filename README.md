@@ -16,7 +16,7 @@ button.addEventListener("click", handleClick);
 
 We have stored a reference to the button with id `#click-me` in the `button` variable and have added an event listener to listen for when the button is pressed. When the button is pressed, the function `handleClick` will be called.
 
-👉 Add code so that if the `shiftKey` property of the event is `true`, then change the text in the button to be `"NAILED IT!!"`.
+👉 Add code so that if the `shiftKey` property of the event is `true` (in other words, if the user holds the shift key down while they click the button), then change the text in the button to be `"NAILED IT!!"`.
 
 ## Task 2 - Adding an event listener:
 
