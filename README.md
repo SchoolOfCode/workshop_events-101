@@ -20,6 +20,13 @@ We have selected the button with id `#click-me` and stored the reference to it i
 
 👉 Add code so that if the `shiftKey` property of the event is `true` (in other words, if the user holds the shift key down while they click the button), then change the text in the button to be `"NAILED IT!!"`.
 
+<details>
+<summary>Hint</summary>
+Remember, you can console log the event object within the handleClick function. This is the object that JavaScript emits when the event occurs (when the user clicks the mouse on the button), and it has information about the state of the DOM and browser when the event happened. Do this and look at the different properties inside of it. Is there a property that has information about the click event that can help you tell if the shift key was pressed down when the mouse button clicked? 
+
+If you're still stuck, try looking at the docs: https://www.w3schools.com/jsref/obj_mouseevent.asp
+</details>
+
 ## Task 2 - Adding an event listener:
 
 There is also a button with a class of `.task-2` in the HTML.
